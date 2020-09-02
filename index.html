@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home Page</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/bootstrap-grid.min.css" rel="stylesheet" />
+        <link href="css/bootstrap-reboot.min.css" rel="stylesheet" />
+        <link href="css/font/css/open-iconic.css" rel="stylesheet">
+        <link href="css/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+        
+        <style>
+            .custom-bg{
+                background-color:  rgb(93, 58, 199);
+                opacity: 1;
+            }
+            body{
+                background-color:rgb(250,250,250) ;
+                /**margin-top:50px;**/
+            }
+            
+            @media(max-width:979px){
+                body{
+                    margin-top:10px;
+                }
+                
+                .bitchy{
+                    padding-top: 4rem;
+                    padding-left: 0rem;
+                    font-size: 3rem;
+                    text-align: center;
+                }
+                
+                .myname{
+                    font-size: 2rem
+                }
+                
+                .logoDisplay{
+                    border-radius:50%;
+                    height: 7rem;
+                    width: 7rem;
+                }
+
+            }
+            
+            @media(min-width:979px){
+                body{
+                    margin-top:10px;
+                }
+                
+                .bitchy{
+                padding-top: 5rem;
+                padding-left: 10rem;
+                font-size: 4em;
+                text-align: left;
+                }
+                .myname{
+                font-size: 2rem
+                }
+                
+                .logoDisplay{
+                border-radius:50%;
+                height: 10rem;
+                width: 10rem;
+                }
+            }
+            
+            .carouselDIV{
+                background-color: #2D363D;
+                margin-bottom: 20px;
+            }
+            
+            
+            
+            a:hover{
+                text-decoration: none;
+            }
+            
+            h1{
+                padding-top:1rem;
+            }
+            
+
+               
+            }
+        </style>
+        
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>        
+                $('#carouselFP').carousel({interval:5});
+        </script>
+    </head>
+    
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark custom-bg" >
+                <div class="container">
+                    
+                    <a class="navbar-brand myname" href="#">Sashank Gadisetti</a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mt-lg-0">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about_me.html">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="work_experience.html">Work Experience</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact_me.html">Contact Me</a></li>
+                        </ul>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"  style="font-size: 2.7rem">≡</button>
+            </nav>
+        
+            <h1 class="display-3 bitchy">Welcome to my Biomedical Portfolio! </h1>
+            <div id="carouselFP" class="carousel slide"data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active carouselDIV">
+                    
+                    <img class="carouselIMG d-block w-100 img-fluid" src="background1.jpg" alt="First slide" style="opacity:0.5">
+                  </div>
+               </div>
+            </div>
+            
+            <div class="container">
+                <h1>Interested to find out more about me?  </h1>
+                <p>Click the icons below to explore my website:</p>
+            </div>
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col">
+                        <a href="homeHTML.html">
+                            <img class="img-thumbnail logoDisplay img-fluid" src="about_me.png"></img>
+                            <br>
+                            <span>About Me</span>
+                        </a>
+                    </div>
+            
+                    <div class="col">
+                        <a href="">
+                            <img class="img-thumbnail logoDisplay img-fluid" src="resume_image.png"></img>
+                            <br>
+                            <span>Resume</span>
+                        </a>
+                    </div>
+                
+                    <div class="col ">
+                        <a href="">
+                        <img class="img-thumbnail logoDisplay img-fluid" src="project_image.png"></img>
+                         <br>
+                        <span>Projects</span>
+                        </a>
+                    </div>
+        
+
+                    <div class="col">
+                        <a href="">
+                        <img class="img-thumbnail logoDisplay img-fluid" src="contact_image.png"></img>
+                        <br>
+                        <span>Contact Me</span>
+                        </a>
+                    </div>
+                
+                </div>
+            </div>
+       
+            
+
+            
+            
+            
+         
+    </body>
+</html>
