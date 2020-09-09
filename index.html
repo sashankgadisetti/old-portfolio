@@ -1,234 +1,494 @@
-
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
     <head>
-        <title>About Me</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="css/bootstrap-grid.min.css" rel="stylesheet" />
-        <link href="css/bootstrap-reboot.min.css" rel="stylesheet" />
-        <link href="css/font/css/open-iconic.css" rel="stylesheet">
-        <link href="css/font/css/open-iconic-bootstrap.css" rel="stylesheet">
-        
-        <style>
-            .custom-bg{
-                background-color:  rgb(93, 58, 199);
-                opacity: 1;
-            }
-            body{
-                background-color:rgb(250,250,250) ;
-                /**margin-top:50px;**/
-            }
-            
-            .subhead{
-                font-size: 1rem;
-                text-align: center;
-                padding-left: 0rem;
-            }
-            
-            @media(max-width:979px){
-                body{
-                    margin-top:10px;
-                }
-                
-                .bitchy{
-                    padding-top: 8rem;
-                    padding-left: 0rem;
-                    font-size: 3rem;
-                    text-align: center;
-                }
-                
-                .myname{
-                    font-size: 2rem
-                }
-                
-                .logoDisplay{
-                    border-radius:50%;
-                    height: 7rem;
-                    width: 7rem;
-                }
-
-            }
-            
-            @media(min-width:979px){
-                body{
-                    margin-top:10px;
-                }
-                
-                .bitchy{
-                padding-top: 10rem;
-                padding-left: 10rem;
-                font-size: 4em;
-                text-align: left;
-                }
-                .myname{
-                font-size: 2rem
-                }
-                
-                .logoDisplay{
-                border-radius:50%;
-                height: 10rem;
-                width: 10rem;
-                }
-            }
-            
-            .carouselDIV{
-                background-color: #2D363D;
-                margin-bottom: 20px;
-            }
-            
-            
-            
-            a:hover{
-                text-decoration: none;
-            }
-            
-            h1{
-                padding-top:1rem;
-            }
-            .abt-me{
-                margin:.5rem;
-                font-size: 1.4rem;
-                
-            }
-
-            .padding-p{
-                padding: 2rem;
-            }
-            
-            .postit:hover{
-                opacity:0.7;
-            }
-            
-            .main{
-                background-image: "fire.jpg";
-            }
-            .upper{
-                background-color:rgb(235,235,235) ;
-                /**margin-top:50px;**/
-            }
-            }
-        </style>
-        
-        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script>        
-                $('#carouselFP').carousel({interval:5});
-        </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Sashank Gadisetti's Portfolio</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet">
+        <!-- Fonts CSS-->
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/body.css">
     </head>
+    <style>
+        a{
+            color: white;
+        }
+    </style>
     
-    <body>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark custom-bg" >
-                <div class="container">
-                    
-                    <a class="navbar-brand myname" href="#">Sashank Gadisetti</a>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mt-lg-0">
-                            <!--<li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>-->
-                            <li class="nav-item active"><a class="nav-link" href="index.html">About Me</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="work_experience.html">Work Experience</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact_me.html">Contact Me</a></li>
-                        </ul>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"  style="font-size: 2.7rem">≡</button>
-            </nav>
-        <div class="container">
-                <h1 class="display-3 bitchy main"><b>Welcome to My Biomedical Portfolio!</b> </h1>
-                <h1 class="h3 subhead"> Scroll Through to Learn More About Me...</h1>
-                
-                <div class="container-fluid padding-p row text-justify upper">
-                    
-                    <div class="padding-p col-6 col-md-6 col-xs-12 col-sm-12">
-                        <h2 class="text-right">Hi, My name is <br>Sashank Gadisetti</h3>
-                        <p class="abt-me">I am currently a junior at Dublin High School and have been in love with the biomedical sciences ever since freshman year. 
-                        <p class="abt-me">One of my strongest beliefs is that there is no substitute for hard work. I am a goal oriented person, meaning that I like
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Sashank Gadisetti</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">About Me</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#work_experience">Work Experience</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact_me">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/profile_pic.jpg" alt="">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">Welcome to <br>My Biomedical Portfolio!</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Scroll through to learn more about me</p>
+            </div>
+        </header>
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">About Me</h2>
+                </div>
+                <br>
+                <hr>
+                <div class="text-justify ">
+                    <p class="abt-me">I am currently a junior at Dublin High School and have been in love with the biomedical sciences ever since freshman year. 
+                        <p class="">One of my strongest beliefs is that there is no substitute for hard work. I am a goal oriented person, meaning that I like
                         to set a clear path for myself and give my goals 100% of my effort. </p>
-                        <p class="abt-me">Of the many lessons school has taught me, one of the most important lessons is that being good at something and liking
+                        <p class="">Of the many lessons school has taught me, one of the most important lessons is that being good at something and liking
                         something are two very different things. Science, at least for me, is a challenging subject which requires one to think and come to conclusion,
                         almost always which may have to be reconsidered. It requires a constant cycle of thinking and experimentation, each time bringing new information
                         and assumptions to light. It was these challenges and ability to gain a deeper understanding of a subject caused me to like it even more,
                         and ultimately gain my interest in the medical field.</p>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Items-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="images/tennis.jpg" alt="Log Cabin"/>
+                        </div>
                     </div>
-                    <div class="w-100 d-block d-lg-none d-xl-none "></div>
-    
-                    <div class="col-6 col-md-6 col-xs-12 col-sm-12">
-                            <!--<a href="homeHTML.html">-->
-                                <img class="img-fluid img-thumbnail" src="images/me.jpg"></img>
-                                <br>
-                                <span>A Picture of Me</span>
-                            <!--</a>-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="images/btob.jpg" alt="Break the Outbreak"/>
+                        </div>
                     </div>
-    
-                </div>
-                
-                <hr>
-                <!--<div id="carouselFP" class="carousel slide"data-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active carouselDIV">
-                        
-                        <img class="carouselIMG d-block w-100 img-fluid" src="me.jpg" alt="First slide" style="opacity:1">
-                      </div>
-                   </div>
-                </div>
-                
-                <div class="container">
-                    <h1>Interested to find out more about me?  </h1>
-                    <p>Click the icons below to explore my website:</p>
-                </div>
-                -->
-                <div class="container-fluid bottom">
-                    <div class="row text-center">
-                        <div class="col postit">
-                            <!--<a href="homeHTML.html">-->
-                                <img class="img-fluid" src="images/tennis.jpg"></img>
-                                <br>
-                                <h1 class="h3">I Love Tennis!</h1>
-                                <p class="text-justify">I try to play tennis as much as possible, but haven't been able to much due to the current circumstances. I really enjoy the sport, it helps me take my mind of things and just enjoy my time. I haven't been playing for very long, however, I have dedicated a lot of time to it and got on the DHS tennis team.</p>
-                            <!--</a>-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="images/biking.jpg" alt="Biking"/>
                         </div>
-                    
-                        <div class="w-100 d-block d-sm-none d-md-none d-xs-none"></div>
-                        
-                        <div class="col postit">
-                            <img class="img-fluid" src="images/biking.jpg"></img>
-                            <br>
-                            <h1 class="h3">I Love to Bike to Other Cities!</h1>
-                            <p class="text-justify">I find biking very relaxing, especially when I'm with my friends. I love how free I feel while biking, with the wind in my face and the sun gleaming in the sky.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="images/book.jpg" alt="Book"/>
                         </div>
-                    
-                        
-                        <div class="w-100 d-block d-xl-none"></div>
-                        
-                        <div class="col postit">
-                            
-                            <img class="img-fluid" src="images/btob.jpg"></img>
-                             <br>
-                            <h1 class="h3">Community Service</h1>
-                            <p class="text-justify">I enjoy community service because not only am I making a positive impact on my society, but I am gaining new experiences and contacts which provide me with new lessons and opportunities in my life. I recently became a part of the organization Break the Outbreak and have been making & donating essential supplies to businesses all around Dublin.</p>
-                            
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="images/medicalField.png" alt="Career Intrest"/>
                         </div>
-            
-                        <div class="w-100 d-block d-sm-none d-xs-none d-md-none"></div>
-                        
-                        <div class="col postit">
-                            
-                            <img class="img-fluid" src="images/book.jpg"></img>
-                            <br>
-                            <h1 class="h3">I Enjoy Reading!</h1>
-                            <p class="text-justify">Reading helps me take my mind off of the stresses of life, and allows me to experience a whole new universe that sometimes defies the rules that govern us.</p>
-                            
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="images/family.jpg" alt="Friends and Family"/>
                         </div>
-                    
                     </div>
                 </div>
-       
+            </div>
+        </section>
+        <!-- Portfolio Modal-->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Tennis</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="images/tennis.jpg" alt="Federer"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-            
-            
-            
-         
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Tasty Cake</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="Tasty Cake"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Circus Tent</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="images/tennis.jpg" alt="Federer"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Controller</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="Controller"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Locked Safe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Submarine</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="Submarine"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="page-section bg-primary text-white mb-0" id="work_experience">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-white">WORK EXPERIENCE</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="container ">        
+                    <hr>
+                        <div class="row ">
+                            <div class="col">
+                                <h3 class="">Break the Outbreak - Organization</h3>
+                                <p>I am a part of the student run organization Break the Outbreak, which has chapters all over the United States,
+                                with the goal of providing aid to our community in order to fight this pandemic. I have been involved in communicating and coordinating
+                                with restauraunts and small businesses who require masks and face shields, along with the creation of the masks as well. </p>
+                            </div>
+                            <div class="col">
+                                <h3 class="">Sunol Creek Memory Care</h3>
+                                <p>Sunol Creek Memory Care is a wellness center for seniors who have Alzheimer's disease and dimentia,
+                                providing a living space filled with caretakers and lots of interaction. During my time there, I was required to complete many less important tasks,
+                                such as cleaning the facility and setting up/managing dining for the seniors, however, I did learn a great deal about the many facets of the medical
+                                field though my experience there. I learned a lot about medical business administration, through numerous talks with the administrators there.
+                                I also learned about a few intership opportunities for the future.</p>
+                            </div>
+                        </div>   
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="">Fair Chance for Special Needs</h3>
+                                <p class="">Fair Chance for Special Needs is a afterschool daycare for children with special needs located on the Dublin High School campus.
+                                Much of my freshman and sophomore years of high school, I assisted with the running of the program, interacting with the children in addition
+                                to other tasks, such as serving food. The children who I communicated with typically had congenital disorders which impaired their ability to
+                                learn and communicated, such as autism and down syndrome, making it harder for their parents to manage a balanced life. Interacting with them
+                                allowed me to remove any stigma I had around children with special needs and helped me gain a better understanding of how drastically a medical
+                                condition can affect a person and their families. I have also volunteered at the annual Night to Shine event hosted by the Tim Tebot Foundation,
+                                a prom-like experience for children with special needs, and a relaxing night for their parents. </p>
+                                
+                            </div>
+                            <div class="col">
+                                <h3 class="">ROP Introduction To Health Careers</h3>
+                                <p>This class is a part of the Regional Occupational Program, which gave me hands on experience in the medical field and caused me to learn a lot
+                                about the human body. I have also learned a lot about the ethical and emotional aspects of the medical field, such as empathy and diversity.
+                                This class trained me in cardiopulmonary resuscitation (CPR), however, I haven't tested for my certification.</p>
+                                
+                            </div>
+                        </div>
+                </div>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <p class="pre-wrap lead"></p>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <p class="pre-wrap lead"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="page-section container" id="projects">
+            <div class="container">
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">Projects and Influential Guest Speakers</h2>
+                    <br>
+                    <hr>
+                    
+                    
+                    <div class="container-fluid padding-p row text-justify upper">
+                        
+                        <div class="padding-p w-50">
+                            <h3>Dublin High Science Fair 2019</h3> <br>
+                            <p class="abt-me">I worked as a member of a team of 3 to test the presence of heavy metals, which can be toxic in large quantities, in household objects.</p>
+                            <p class="abt-me">Heavy metals are those which are poisonous to the human body after ingestion or prolonged exposure. These metals have the potential to be deadly and people should be aware of their effects and presence in household objects.  These toxic metals are typically favored due to their low cost and low melting point, making them easier to mass produce. We used water testing strips for poisonous metals in order to test for these metals after we dissolved a sanded powder from these objects into the water.</p>
+                            
+                        </div>
+                        
+                        <div class="w-100 d-block d-lg-none d-xl-none "></div>
+    
+                        <div class="col w-50 text-center">
+                                <!--<a href="homeHTML.html">-->
+                                    <img class="img-fluid " src="images/scienceFairTrifold.jpg"></img>
+                                    
+                                    <span class="">A Picture of Our Tri-Fold for the Fair</span>
+                                <!--</a>-->
+                        </div>
+                        
+        
+                    </div>
+                    
+                    <div class="container-fluid padding-p row text-justify upper">
+                        
+                        <div class="padding-p w-50">
+                            <h3>Grand Rounds 2020</h3> <br>
+                            <p class="abt-me">I worked as a part of a 3 person team to reasearch the SARS outbreak in 2002. We delivered a presentation on a hypothetical case of SARS,
+                            including the epedemiology, diagnosis, treatment, & prognosis of the virus. We created example documents with tests and scans which would point at an
+                            outbreak of the disease. Overall, it was a great experience which allowed me to both learn a large amount about the spread of dangerous pathogens
+                            and also helped me with my presentational skills.</p>
+                            <p class="abt-me"></p>
+                            
+                        </div>
+                        
+                        <div class="w-100 d-block d-lg-none d-xl-none "></div>
+    
+                        <div class="col w-50 text-center">
+                                <!--<a href="homeHTML.html">-->
+                                    <img class="img-fluid " src="" alt="picture coming soon"></img>
+                                    
+                                    <span class=""></span>
+                                <!--</a>-->
+                        </div>
+                        
+                    </div>
+                    
+           
+            </div>
+        </section>
+        
+        <section class="page-section bg-primary text-white mb-0" id="resume">
+             <div class="container">
+                <div class="row">
+                        <div class="col-lg-4 ml-auto">
+                            <h2 class="pre-wrap ">Resume Link:</h2>
+                        </div>
+                        <div class="col-lg-4 mr-auto">
+                            <a href="https://docs.google.com/document/d/1eChzV9A8MhECML9Av2p9ZPSPEY8dk-NcAXYf7sPNSoY/edit" class="pre-wrap lead">Click here for my resume</a>
+                        </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="page-section" id="contact_me">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Contact Me</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="text-muted">Location</div>
+                            <div class="lead font-weight-bold">Dublin, California</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:sashank.gadisetti@gmail.com">sashank.gadisetti@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">LOCATION</h4>
+                        <p class="pre-wrap lead mb-0">Dublin, California</p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/StartBootstrap"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/sbootstrap"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/startbootstrap"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.dribble.com/startbootstrap"><i class="fab fa-fw fa-dribbble"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <!--<div class="col-lg-4">
+                        <h4 class="mb-4">ABOUT FREELANCER</h4>
+                        <p class="pre-wrap lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap</p>
+                    </div>-->
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small class="pre-wrap">Copyright © Sashank Gadisetti 2020</small></div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
 </html>
