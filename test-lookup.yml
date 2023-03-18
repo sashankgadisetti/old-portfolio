@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: workflow-engine API
+  description: workflow-engine API
+  tags:
+    - java
+    - data
+  links:
+    - url: https://github.com/sashankgadisetti/sashankgadisetti.github.io/new/master
+      title: health check
+      icon: health
+    - url: https://github.com/sashankgadisetti/sashankgadisetti.github.io/new/master
+      title: Workflow process start
+      icon: process
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Srini
+  system: workflow-engine
